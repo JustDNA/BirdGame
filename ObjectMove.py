@@ -28,7 +28,7 @@ ballrect = ballimage.get_rect()
 
 moveup = movedown = moveright = moveleft = False
 ballrect.centerx = ballrect.centery = 250
-    
+
 while True:     # the main game loop
 
     for event in pygame.event.get():
